@@ -1,0 +1,11 @@
+name: Manual Tracker Run
+
+on:
+  workflow_dispatch:
+
+jobs:
+  tracker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo tracker info
+        run: echo "AAPL expiration tracker manual run OK"
